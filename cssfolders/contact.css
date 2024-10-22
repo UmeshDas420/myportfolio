@@ -1,0 +1,49 @@
+*{
+    background-image: url(../contact.jpg);
+    background-attachment:fixed;
+    background-size: cover;
+    background-position: center;
+}
+body{
+    display: flex;
+}
+.text{
+    color: antiquewhite;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: large;
+    position: relative;
+    top: 40px;
+    left: 200px;
+   
+}
+@media(max-width:680px){
+    .text{
+        font-size: medium;
+        width: 200px;
+    }
+    img{
+        width: 100px;
+    }
+    .myimage{
+        position: relative;
+        width: 100px;
+        
+        text-align: center;
+        font-size: x-large;
+    }
+}
+.myimage{
+    position: relative;
+    width: 200px;
+    bottom: 100px;
+    text-align: center;
+    font-size: x-large;
+}
+img{
+   
+    width: 200px;
+    
+}
+.ps{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
